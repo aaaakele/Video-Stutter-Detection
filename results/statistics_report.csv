@@ -1,0 +1,4 @@
+method,precision,recall,f1_score,processing_fps,complexity,recommendation_rank
+frame_diff,0.43,0.86,0.57,166.82,Low,3
+ssim,0.52,0.86,0.65,107.18,Medium,1
+optical_flow,0.45,0.93,0.60,60.53,High,2

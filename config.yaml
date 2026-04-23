@@ -1,0 +1,38 @@
+video_path: data/sample.mkv
+gt_path: data/dataset.xlsx
+output_dir: results
+sample_every: 1
+detectors:
+  - name: frame_diff
+    enabled: true
+    threshold: 0.8
+    min_streak: 2
+    extra:
+      resize_width: 640
+      min_positive_ratio: 0.6
+      min_positive_frames: 3
+      min_event_seconds: 1
+      max_gap_seconds: 0
+
+  - name: ssim
+    enabled: true
+    threshold: 0.997
+    min_streak: 2
+    extra:
+      resize_width: 640
+      min_positive_ratio: 0.55
+      min_positive_frames: 3
+      min_event_seconds: 1
+      max_gap_seconds: 1
+
+  - name: optical_flow
+    enabled: true
+    threshold: 0.12
+    min_streak: 2
+    extra:
+      resize_width: 640
+      max_corners: 200
+      min_positive_ratio: 0.6
+      min_positive_frames: 3
+      min_event_seconds: 1
+      max_gap_seconds: 0

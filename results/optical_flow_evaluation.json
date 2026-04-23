@@ -1,0 +1,335 @@
+{
+  "detector": "optical_flow",
+  "stats": {
+    "precision": 0.45161290322580644,
+    "recall": 0.9333333333333333,
+    "f1_score": 0.608695652173913,
+    "tp": 14,
+    "fp": 17,
+    "fn": 1
+  },
+  "matched_pairs": [
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 3,
+        "end_sec": 4,
+        "duration_sec": 1,
+        "severity": 4.502357932891103,
+        "evidence": {
+          "seconds": 1,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 36,
+          "total_frames": 60,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 3,
+        "end_sec": 4
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 14,
+        "end_sec": 16,
+        "duration_sec": 2,
+        "severity": 2.6388533906779417,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 79,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 14,
+        "end_sec": 16
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 34,
+        "end_sec": 36,
+        "duration_sec": 2,
+        "severity": 3.668506467833043,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 79,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 33,
+        "end_sec": 36
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 42,
+        "end_sec": 43,
+        "duration_sec": 1,
+        "severity": 4.241906859203136,
+        "evidence": {
+          "seconds": 1,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 39,
+          "total_frames": 60,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 42,
+        "end_sec": 43
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 51,
+        "end_sec": 53,
+        "duration_sec": 2,
+        "severity": 4.788354544251624,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 76,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 51,
+        "end_sec": 52
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 61,
+        "end_sec": 62,
+        "duration_sec": 1,
+        "severity": 2.455358481435941,
+        "evidence": {
+          "seconds": 1,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 37,
+          "total_frames": 60,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 60,
+        "end_sec": 62
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 94,
+        "end_sec": 100,
+        "duration_sec": 6,
+        "severity": 2.4223661034577817,
+        "evidence": {
+          "seconds": 6,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 253,
+          "total_frames": 360,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 95,
+        "end_sec": 98
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 109,
+        "end_sec": 110,
+        "duration_sec": 1,
+        "severity": 3.4028087035003844,
+        "evidence": {
+          "seconds": 1,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 37,
+          "total_frames": 60,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 109,
+        "end_sec": 110
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 125,
+        "end_sec": 127,
+        "duration_sec": 2,
+        "severity": 3.3408766467893845,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 78,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 124,
+        "end_sec": 128
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 137,
+        "end_sec": 139,
+        "duration_sec": 2,
+        "severity": 1.600817431154591,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 79,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 137,
+        "end_sec": 139
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 150,
+        "end_sec": 154,
+        "duration_sec": 4,
+        "severity": 4.1523001024633395,
+        "evidence": {
+          "seconds": 4,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 159,
+          "total_frames": 240,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 150,
+        "end_sec": 154
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 157,
+        "end_sec": 158,
+        "duration_sec": 1,
+        "severity": 3.112429280266838,
+        "evidence": {
+          "seconds": 1,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 37,
+          "total_frames": 60,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 156,
+        "end_sec": 158
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 167,
+        "end_sec": 171,
+        "duration_sec": 4,
+        "severity": 2.222516028840705,
+        "evidence": {
+          "seconds": 4,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 165,
+          "total_frames": 240,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 166,
+        "end_sec": 170
+      }
+    },
+    {
+      "pred": {
+        "start_frame": 0,
+        "end_frame": 0,
+        "start_sec": 177,
+        "end_sec": 179,
+        "duration_sec": 2,
+        "severity": 2.4972663001667357,
+        "evidence": {
+          "seconds": 2,
+          "interval_type": "half_open",
+          "threshold": 0.12,
+          "positive_frames": 77,
+          "total_frames": 120,
+          "min_positive_ratio": 0.6,
+          "min_positive_frames": 3
+        }
+      },
+      "gt": {
+        "start_sec": 177,
+        "end_sec": 178
+      }
+    }
+  ]
+}
